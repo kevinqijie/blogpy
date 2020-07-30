@@ -1,5 +1,7 @@
 from app import app
+from app.article import getArticleLists
 
-@app.route('/')
-def index():
-    return "Hello, World!"
+
+@app.route('/getArticleList')
+def getArticleList():
+    return getArticleLists()
