@@ -1,4 +1,5 @@
-from pymysql import *#python中调用pymysql
+from pymysql import *
+#python中调用pymysql
 
 class Mysqlpython:
     def __init__(self,database='test',
@@ -47,6 +48,3 @@ class Mysqlpython:
         except Exception as e:
             print("Failed",e)
         self.close()
-# c =Mysqlpython().all('select * from test1')
-
-# print(c)
