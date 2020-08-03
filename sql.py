@@ -2,7 +2,7 @@ from pymysql import *
 #python中调用pymysql
 
 class Mysqlpython:
-    def __init__(self,database='test',
+    def __init__(self,database='blog',
                  host="localhost",
                  user="root",
                  password="",
